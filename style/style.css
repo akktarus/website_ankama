@@ -1,0 +1,200 @@
+div {
+  display: flex;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: rgb(43, 42, 42, 0.889);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  flex-direction: column;
+}
+
+/* .main {
+    flex-direction: row;
+} */
+
+/* header */
+.logo img {
+  max-width: 20vh;
+}
+
+.whole-page {
+  flex-direction: column;
+}
+
+.main-header {
+  flex-direction: row;
+  align-items: center;
+}
+.main-nav {
+  width: auto;
+}
+.nav-content a {
+  color: black;
+  flex-direction: row;
+  margin-left: 10vh;
+  text-decoration: none;
+  justify-content: center;
+}
+
+.nav-content {
+  width: auto;
+  height: auto;
+  list-style: none;
+}
+
+/* index */
+/* main */
+.main-info {
+  background-color: rgb(50, 50, 50);
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  height: auto;
+}
+.main-info-img {
+  height: 25%;
+  float: left;
+  margin: 5px;
+}
+.main-index {
+  flex-direction: row;
+}
+.main-info-title {
+  height: auto;
+}
+.main-info-text {
+  flex-direction: column;
+  height: auto;
+}
+.main-info {
+  flex-direction: row;
+  height: fit-content;
+  margin: 10px;
+}
+.main-info-whole-text {
+  flex-direction: column;
+}
+/* Side bar */
+.side {
+  flex-direction: column;
+  margin: 10px;
+}
+.side-image img {
+  max-width: 15vw;
+  max-height: 15vw;
+  float: left;
+  margin: 10px;
+}
+
+.side-whole-text {
+  flex-direction: column;
+  height: auto;
+  width: auto;
+}
+.whole-side {
+  flex-direction: row;
+  height: auto;
+  width: auto;
+}
+.side {
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(50, 50, 50);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* jeux */
+/* structure de la page */
+.main-body {
+  flex-direction: column;
+}
+/* history */
+.main-article {
+  flex-direction: column;
+}
+.main-story {
+  margin: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(50, 50, 50);
+}
+.main-story-title {
+  margin: 10px;
+}
+/* jeux */
+.main-article-image img {
+  width: 10vw;
+  margin: 10px;
+}
+.article-text-whole {
+  flex-direction: column;
+  align-items: center;
+}
+.main-article-title {
+  margin: 5px;
+}
+.main-article {
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 15px;
+  background-color: rgb(50, 50, 50);
+}
+.main {
+  flex-direction: column;
+}
+.main-article-text {
+  margin: 5px;
+}
+.main-article-list {
+  align-self: flex-start;
+}
+.main-article-list ul {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+.main-label{
+    flex-direction: column;
+}
+.main-label-label input, .main-label-input input ,textarea{
+    width: 40%;
+}
+.main-label-whole{
+    flex-direction: column;
+    margin: 25px;
+}
+.main-label-button{
+    flex-direction: column;
+    margin: 20px;
+}
+.main-label-button-send{
+    margin: 10px;
+}
+.newsletter-check{
+    flex-direction: row;
+}
+
+@media(max-width:1000px){
+ .nav-content{
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px;
+    width: 30vw;
+    
+}
+.main-index{
+    flex-direction: column;
+}
+}
